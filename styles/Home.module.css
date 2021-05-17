@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 .footer {
@@ -34,7 +35,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -55,9 +56,9 @@
   text-align: center;
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.update {
+  font-size: 1.3rem;
+  font-weight: 200;
 }
 
 .code {
@@ -65,8 +66,8 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace;
 }
 
 .grid {
@@ -109,8 +110,8 @@
 }
 
 .logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  color: var(--main-color);
+  font-weight: 600;
 }
 
 @media (max-width: 600px) {
