@@ -12,7 +12,7 @@
   --small-space: 1rem;
   --medium-space: 2rem;
   --large-space: 3rem;
-  --max-width: 90rem;
+  --max-width: 120rem;
 }
 
 html {
@@ -31,7 +31,7 @@ html {
 
 body {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 300;
   color: var(--primary-font);
   margin: 0;
   display: flex;

@@ -1,0 +1,29 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+}
+
+.featuresContent {
+  text-align: left;
+}
+
+.heroImage {
+  display: none;
+}
+
+@media (min-width: 750px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .heroContent {
+    width: 60%;
+  }
+
+  .heroImage {
+    display: block;
+  }
+}

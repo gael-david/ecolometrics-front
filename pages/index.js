@@ -1,9 +1,12 @@
-const LandingPage = () => {
+import styles from "../styles/index.module.css";
+import Hero from "../layouts/Hero/Hero";
+
+const Landing = () => {
   return (
-    <div>
-      <h1>Open knowledge hub for ecological transitions</h1>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 
-export default LandingPage;
+export default Landing;

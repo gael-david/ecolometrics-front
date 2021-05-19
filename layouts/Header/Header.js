@@ -7,7 +7,7 @@ const Header = () => (
       <Link href="/">
         <a className={styles.navBrand}>
           <img src="/ecologo.svg" className={`${styles.navIcon}`} />
-          <p>
+          <p className={styles.navText}>
             ecolo<em>metrics</em>
           </p>
         </a>

@@ -23,6 +23,10 @@
   cursor: pointer;
 }
 
+.navText {
+  display: none;
+}
+
 .navBar {
   display: flex;
   flex-direction: row;
@@ -36,4 +40,10 @@
   grid-auto-flow: column;
   grid-gap: var(--medium-space);
   gap: var(--medium-space);
+}
+
+@media (min-width: 600px) {
+  .navText {
+    display: flex;
+  }
 }
