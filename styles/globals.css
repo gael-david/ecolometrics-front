@@ -6,12 +6,13 @@
   --secondary-font: #aaaaaa;
   --bg-color: #fff;
   --card-color: #fff;
+  --input-color: #f1f1f1;
   --heading-color: #292922;
-  --text-font: "Roboto", sans-serif;
+  --text-font: "Quicksand", sans-serif;
   --heading-font: "Quicksand", sans-serif;
   --small-space: 1rem;
-  --medium-space: 2rem;
-  --large-space: 3rem;
+  --medium-space: 3rem;
+  --large-space: 5rem;
   --max-width: 120rem;
 }
 
@@ -31,7 +32,7 @@ html {
 
 body {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--primary-font);
   margin: 0;
   display: flex;

@@ -1,16 +1,49 @@
 .hero {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: var(--large-space);
   width: 100%;
 }
 
 .heroContent {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: var(--medium-space);
 }
 
 .heroImage {
   display: none;
+}
+
+.heroForm {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  gap: var(--small-space);
+}
+
+.formInput {
+  flex: 1;
+  background: var(--input-color);
+  border: none;
+  padding: var(--small-space);
+  border-radius: var(--small-space);
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.formButton {
+  white-space: nowrap;
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  font-family: var(--text-font);
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 0 2rem;
+  border-radius: var(--small-space);
 }
 
 @media (min-width: 750px) {

@@ -6,7 +6,7 @@ const Header = () => (
     <header className={styles.appHeader}>
       <Link href="/">
         <a className={styles.navBrand}>
-          <img src="/ecologo.svg" className={`${styles.navIcon}`} />
+          <img src="/images/ecologo.svg" className={`${styles.navIcon}`} />
           <p className={styles.navText}>
             ecolo<em>metrics</em>
           </p>
