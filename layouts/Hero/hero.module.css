@@ -36,7 +36,7 @@
 
 .formButton {
   white-space: nowrap;
-  background: var(--primary-color);
+  background: var(--brand-color-1);
   border: none;
   color: white;
   font-family: var(--text-font);

@@ -13,7 +13,7 @@ const Hero = () => {
           How about aggregating them in a single place to facilitate their access?
         </p>
         <form action="post" className={styles.heroForm}>
-          <input type="email" name="email" id="email" className={styles.formInput} placeholder="📧  Votre email" />
+          <input type="email" name="email" id="email" className={styles.formInput} placeholder="📧 Votre email" />
           <button type="submit" className={styles.formButton}>
             Accès anticipé
           </button>

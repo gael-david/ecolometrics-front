@@ -1,12 +1,16 @@
 :root {
-  --primary-color: #fabe5c;
-  --secondary-color: #e2e0fc;
-  --third-color: #ebebeb;
-  --primary-font: #424242;
-  --secondary-font: #aaaaaa;
+  --brand-color-1: #fabe5c;
+  --brand-color-1-light: #fef2de;
+  --brand-color-2: #00cc76;
+  --brand-color-2-light: #ccf5e4;
+  --brand-color-3: #5c62fa;
+  --brand-color-3-light: #efefff;
   --bg-color: #fff;
   --card-color: #fff;
   --input-color: #f1f1f1;
+  --font-color-1: #424242;
+  --font-color-2: #aaaaaa;
+  --font-color-opp: white;
   --heading-color: #292922;
   --text-font: "Quicksand", sans-serif;
   --heading-font: "Quicksand", sans-serif;
@@ -87,7 +91,7 @@ h4 {
 }
 
 em {
-  color: var(--primary-color);
+  color: var(--brand-color-1);
   font-style: normal;
 }
 

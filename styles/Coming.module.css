@@ -22,7 +22,7 @@
 }
 
 .title a {
-  color: var(--primary-color);
+  color: var(--brand-color-1);
   text-decoration: none;
 }
 
