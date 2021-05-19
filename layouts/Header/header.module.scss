@@ -1,0 +1,39 @@
+.appHeader {
+  max-width: var(--max-width);
+  width: 100%;
+  padding: var(--medium-space);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--small-space);
+}
+
+.navBrand {
+  font-size: 2.5rem;
+  font-family: var(--heading-font);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.navIcon {
+  font-weight: 700;
+  height: 6rem;
+  cursor: pointer;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--medium-space);
+}
+
+.navButtons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: var(--medium-space);
+  gap: var(--medium-space);
+}
