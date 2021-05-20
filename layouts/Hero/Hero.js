@@ -15,7 +15,7 @@ const Hero = () => {
 
     e.preventDefault();
 
-    const sendEmail = await axios.post("http://api.ecolometrics.org/earlyAccess", {
+    const sendEmail = await axios.post("https://ecolometrics.herokuapp.com/earlyAccess", {
       email: email,
     });
 
