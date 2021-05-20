@@ -4,7 +4,7 @@ import Image from "next/image";
 const Team = () => {
   return (
     <section className={styles.section}>
-      <h2>Our Team</h2>
+      <h2>L'équipe</h2>
       <div className={styles.list}>
         <div className={styles.item}>
           <img src="/images/team/profileYD.png" className={styles.image} />
@@ -21,7 +21,7 @@ const Team = () => {
       </div>
       <p>
         Si rejoindre le projet vous intéresse,{" "}
-        <a href="mailto:ecolometricsapp@gmail.com" class={styles.anchor}>
+        <a href="mailto:ecolometricsapp@gmail.com" className={styles.anchor}>
           contactez-nous!
         </a>
       </p>
