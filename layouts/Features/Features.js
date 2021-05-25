@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="features">
       <h2>Le projet Ecolometrics</h2>
       <div className={styles.list}>
         <div className={styles.item}>

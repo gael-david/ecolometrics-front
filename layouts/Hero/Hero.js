@@ -7,20 +7,23 @@ const Hero = () => {
   const [email, setEmail] = useState("example@email.com");
   const changeEmail = (e) => {
     setEmail(e.target.value);
-    console.log(email);
   };
-
   const postEmail = async (e) => {
-    if (email === "" || email === "example@email.com") return;
-
     e.preventDefault();
 
-    const sendEmail = await axios.post("https://ecolometrics.herokuapp.com/earlyAccess", {
-      email: email,
-    });
+    if (email === "" || email === "example@email.com") return;
 
-    console.log(sendEmail);
+    try {
+      const response = await axios.post(`http://api.ecolometrics.org/earlyAccess?email=${email}`);
+      setEmailSuccess(<p className={styles.success}>Inscription réussie !</p>);
+    } catch (error) {
+      setEmailSuccess(<p className={styles.error}>Vous êtes déjà inscrit</p>);
+    }
   };
+
+  const [emailSuccess, setEmailSuccess] = useState(
+    <p className={styles.normal}>Inscrivez-vous à notre accès anticipé</p>
+  );
 
   return (
     <div className={styles.section}>
@@ -48,6 +51,7 @@ const Hero = () => {
             Accès anticipé
           </button>
         </form>
+        {emailSuccess}
       </div>
       <div className={styles.image}>
         <Image src="/images/heroImage.svg" height={500} width={500} />

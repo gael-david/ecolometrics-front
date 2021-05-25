@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="team">
       <h2>L'équipe</h2>
       <div className={styles.list}>
         <div className={styles.item}>

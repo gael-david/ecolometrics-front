@@ -57,6 +57,19 @@
   font-size: 2rem;
   padding: 0 2rem;
   border-radius: var(--small-space);
+  cursor: pointer;
+}
+
+.normal {
+  color: var(--brand-color-3);
+}
+
+.success {
+  color: var(--brand-color-2);
+}
+
+.error {
+  color: rgb(228, 72, 72);
 }
 
 @media (min-width: 750px) {

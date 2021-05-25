@@ -14,10 +14,10 @@ const Header = () => (
       </Link>
       <div className={styles.navBar}>
         <div className={styles.navButtons}>
-          <Link href="/about">
+          <Link href="/#features">
             <a>À propos</a>
           </Link>
-          <Link href="/contact">
+          <Link href="/#team">
             <a>Contact</a>
           </Link>
         </div>
