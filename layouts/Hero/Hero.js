@@ -14,10 +14,12 @@ const Hero = () => {
     if (email === "" || email === "example@email.com") return;
 
     try {
-      const response = await axios.post(`http://api.ecolometrics.org/earlyAccess?email=${email}`);
-      setEmailSuccess(<p className={styles.success}>Inscription réussie !</p>);
+      const response = await axios.post(`https://api.ecolometrics.org/earlyAccess?email=${email}`);
+      console.log(response);
+      setEmailSuccess(<p className={styles.success}>{response.data.status}</p>);
     } catch (error) {
-      setEmailSuccess(<p className={styles.error}>Vous êtes déjà inscrit</p>);
+      console.log(error.response);
+      setEmailSuccess(<p className={styles.error}>{error.response.data.status}</p>);
     }
   };
 
